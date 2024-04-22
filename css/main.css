@@ -1,0 +1,138 @@
+*{box-sizing: border-box;}
+
+body{
+    margin: 0;
+    font-family: monospace;
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.me{
+    max-width: 50%;
+    margin: 5rem 10rem 0rem 10rem;
+    border: 2px solid black;
+    border-radius: 4rem;
+}
+
+.paragraph-about-me{
+    margin: 0 2.5rem 2.5rem 2.5rem;
+    border: 2px solid gray;
+    border-radius: 1rem;
+}
+
+#social-icon-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 0 25rem;
+    gap: 0.8rem;
+}
+
+h3, h4{
+    text-decoration: underline;
+}
+#myName{
+    color: #6F6F6F;
+}
+@media (min-width: 300px) {
+    #social-icon-container{
+        margin: 0 3rem;
+    }
+}
+
+@media (min-width: 200px) {
+    #social-icon-container{
+        margin: 0 2rem;
+    }
+}
+
+@media (min-width: 400px) {
+    #social-icon-container{
+        margin: 0 5rem;
+    }
+}
+
+
+@media (min-width: 500px) {
+    #social-icon-container{
+        margin: 0 10rem;
+    }
+}
+
+@media (min-width: 600px) {
+    #social-icon-container{
+        margin: 0 15rem;
+    }
+}
+
+@media (min-width: 700px) {
+    #social-icon-container{
+        margin: 0 18rem;
+    }
+}
+
+@media (min-width: 900px) {
+    #social-icon-container{
+        margin: 0 25rem;
+    }
+}
+
+@media (min-width: 1000px) {
+    #social-icon-container{
+        margin: 0 27rem;
+    }
+}
+
+@media (min-width: 1100px) {
+    #social-icon-container{
+        margin: 0 31rem;
+    }
+}
+
+@media (min-width: 1200px) {
+    #social-icon-container{
+        margin: 0 34rem;
+    }
+}
+
+@media (min-width: 1300px) {
+    #social-icon-container{
+        margin: 0 33rem;
+    }
+}
+
+@media (min-width: 1400px) {
+    #social-icon-container{
+        margin: 0 37rem;
+    }
+}
+
+@media (min-width: 1500px) {
+    #social-icon-container{
+        margin: 0 42rem;
+    }
+}
+
+@media (min-width: 1600px) {
+    #social-icon-container{
+        margin: 0 45rem;
+    }
+}
+
+@media (min-width: 1700px) {
+    #social-icon-container{
+        margin: 0 50rem;
+    }
+}
+
+@media (min-width: 1800px) {
+    #social-icon-container{
+        margin: 0 53rem;
+    }
+}
+
+@media (min-width: 1900px) {
+    #social-icon-container{
+        margin: 0 55rem;
+    }
+}
+
